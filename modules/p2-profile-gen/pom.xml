@@ -150,6 +150,7 @@
                                 <featureArtifactDef>
                                     org.wso2.carbon.governance:org.wso2.carbon.registry.extensions.feature:${carbon.governance.version}
                                 </featureArtifactDef>
+				
                                 <featureArtifactDef>
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.ws.feature:${carbon.registry.version}
                                 </featureArtifactDef>
@@ -215,6 +216,9 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.governance-extensions:org.wso2.carbon.governance.comparator.server.feature:${carbon.governance.ext.version}
+                                </featureArtifactDef>
+				<featureArtifactDef>
+                                    org.wso2.carbon.governance-extensions:org.wso2.carbon.greg.soap.viewer.feature:${carbon.governance.ext.version}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.event.output.adapter.server.feature:${carbon.analytics.common.version}
@@ -757,6 +761,10 @@
                                 </feature>
                                 <feature>
                                     <id>org.wso2.carbon.governance.comparator.server.feature.group</id>
+                                    <version>${carbon.governance.ext.version}</version>
+                                </feature>
+				 <feature>
+                                    <id>org.wso2.carbon.greg.soap.viewer.feature.group</id>
                                     <version>${carbon.governance.ext.version}</version>
                                 </feature>
                                 <feature>
